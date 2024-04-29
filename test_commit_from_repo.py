@@ -1,1 +1,0 @@
-from desktop visual studio
