@@ -17,5 +17,5 @@ try:
     print(l[0][1].translate(line.maketrans(" "," ", "<>;")), l[0][0])
 
 except FileNotFoundError:
-    print("The file you were lookinf for hhas not been found or cannot be opened.")
+    print("The file you were looking for hhas not been found or cannot be opened.")
     exit()
