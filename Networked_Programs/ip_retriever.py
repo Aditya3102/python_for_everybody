@@ -74,4 +74,4 @@ except socket.gaierror:
     sys.exit()
 
 s.connect((ip, port))
-print(f"Successfully connected to  {host_name}")
+print(f"Successfully connected to  {host_name}on port == {str(port)}")
